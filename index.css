@@ -1,0 +1,41 @@
+.grid,
+.grid .body {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid .body {
+    overflow-x: auto;
+}
+
+.grid {
+    width: 100%;
+    height: 100%;
+    border: solid 1px lightgray;
+}
+
+.grid .header,
+.grid .row {
+    display: flex;
+    min-height: 20px;
+    border-bottom: solid 1px lightgray;
+}
+
+.grid .header {
+    height: 30px;
+}
+
+.grid .header-cell,
+.grid .row-cell {
+    flex: 1;
+    border-right: solid 1px lightgray;
+    padding: 2px;
+}
+
+.grid .header-cell {
+    padding: 3px 5px;
+}
+
+.grid .row-cell {
+    flex-direction: row;
+}
