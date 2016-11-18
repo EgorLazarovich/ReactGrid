@@ -17,25 +17,19 @@
 .grid .header,
 .grid .row {
     display: flex;
-    min-height: 20px;
+    min-height: 35px;
     border-bottom: solid 1px lightgray;
 }
 
 .grid .header {
     height: 30px;
+    background-color: #ECF0F1;
 }
 
 .grid .header-cell,
 .grid .row-cell {
     flex: 1;
     border-right: solid 1px lightgray;
-    padding: 2px;
-}
-
-.grid .header-cell {
-    padding: 3px 5px;
-}
-
-.grid .row-cell {
+    padding: 6px;
     flex-direction: row;
 }
